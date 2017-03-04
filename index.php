@@ -19,25 +19,20 @@
 		<br>
 
 
-		<center> <h1>Pendataan Nomor Rekening Tutor</h1> </center>
+		<center> <h1>Upload Berkas Pembayaran Asrama</h1> </center>
 		<hr>
 		<br>
 		<br>
 		<div class="inputwrap">
-			<form  name="loginForm"  action="add.php" method="post" enctype="multipart/form-data">
+			<form  name="loginForm"  action="add2.php" method="post" enctype="multipart/form-data">
 			<label>Nama Lengkap</label><BR>
 			<input type="text" name="nama" required></input><BR>
 
 			<label>NIM</label><BR>
 			<input name="nim" required></textarea><br>
 
-			<label>Bank</label><BR>
-			<input name="bank" required></textarea><br>
 
-			<label>Nomor Rekening</label><BR>
-			<input type="text" name="norek" required></input><BR>
-
-			<label>Foto Nomor Rekening</label><BR>
+			<label>Foto Bukti Pembayaran</label><BR>
 			<input type="file" name="photo" id="photo" required></input><BR>
 
 			
